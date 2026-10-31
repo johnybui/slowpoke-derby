@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slowpoke Derby Support</title>
+<meta name="description" content="Help, how to play and contact for Slowpoke Derby, a cozy racing game where slow wins.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --bg:#FCEFD1; --surface:#FFF8E8; --text:#3B2A2A; --muted:#6B5A52; --border:#E5D3B3; --accent:#3F8A35; --soft:#E4F3D8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#1E1716; --surface:#2A211F; --text:#F7EEE4; --muted:#C9B9AC; --border:#43362F; --accent:#8FD27F; --soft:#24331F; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  header { display:flex; align-items:center; gap:16px; margin-bottom: 8px; }
+  .logo { width:64px; height:64px; border-radius:16px; flex:none; }
+  h1 { font-size: 30px; line-height:1.2; margin:0; }
+  .meta { color:var(--muted); font-size:15px; margin: 4px 0 28px; }
+  .contact { background:var(--soft); border-radius:16px; padding:18px 20px; margin-bottom:32px; }
+  h2 { font-size:21px; margin:36px 0 8px; }
+  h3 { font-size:17px; margin:20px 0 4px; }
+  p { margin: 0 0 8px; }
+  li { margin: 4px 0; }
+  a { color:var(--accent); }
+  footer { margin-top:48px; color:var(--muted); font-size:14px; border-top:1px solid var(--border); padding-top:16px; }
+  footer img.brand { display:block; height:24px; width:auto; margin-bottom:12px; }
+  footer p { margin:0; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img class="logo" src="icon.png" alt="Slowpoke Derby app icon">
+    <h1>Slowpoke Derby Support</h1>
+  </header>
+  <p class="meta">The Grand Gastropod Gala: only the slowest may enter.</p>
+
+  <div class="contact">
+    <p><strong>Need help, found a bug, or have an idea?</strong></p>
+    <p><a href="https://github.com/johnybui/slowpoke-derby/issues">Open an issue on GitHub</a>. Please include your phone or tablet model, the stage number, and what happened.</p>
+  </div>
+
+  <h2>How to play</h2>
+  <ul>
+    <li><strong>Hold CREEP</strong> to move. Keep the pace needle in the green sweet spot. Go too fast for too long and the judges send you back to the last checkpoint.</li>
+    <li><strong>Zen</strong> fills while you stay in the sweet spot. A full Zen bar shields you from one hit.</li>
+    <li><strong>Tap TUCK</strong> just before a robin, boot, acorn or flood strikes. Tucking just in time is a Perfect tuck and earns a bonus dewdrop.</li>
+    <li><strong>Gates</strong> (ant crossings and rake sweeps): wait for the green lamp.</li>
+    <li><strong>Hills</strong> use slime. When it runs out, let go and rest to refill it.</li>
+    <li><strong>Nap leaves</strong>: stop on one to fill Zen quickly.</li>
+  </ul>
+
+  <h2>Questions</h2>
+  <h3>How do I replay a stage or start over?</h3>
+  <p>On the title screen, tap <strong>Stages</strong>. Pick any stage you’ve reached, or tap “Start over from Stage 1”. Your dewdrops, upgrades and hats are kept.</p>
+  <h3>How do I erase everything?</h3>
+  <p>Title screen › Settings › Reset progress. This clears stages, dewdrops, upgrades and hats. Settings stay.</p>
+  <h3>The races are too hard (or too easy)</h3>
+  <p>Choose <strong>Gentle</strong>, <strong>Normal</strong> or <strong>Hard</strong> on the title screen. Gentle widens the sweet spot and gives longer warnings. Hard ends the race on the first bonk and pays 50% more dewdrops. Settings also has auto-tuck for one-button play.</p>
+  <h3>How do I beat Marmalade the Cat?</h3>
+  <p>She swipes three times. Stay tucked through each swipe, or wait outside her shadow until she gets bored and wanders off.</p>
+  <h3>The game feels slow on my phone</h3>
+  <p>The game picks lighter graphics automatically on slower phones. Reduce motion in Settings also turns off screen shake.</p>
+  <h3>Does the game need the internet or collect data?</h3>
+  <p>No. It plays fully offline, has no ads or in-app purchases, and collects no data. See the <a href="./">privacy policy</a>.</p>
+
+  <footer>
+    <picture>
+      <source srcset="brand/jjatiq-logo-on-dark.svg" media="(prefers-color-scheme: dark)">
+      <img class="brand" src="brand/jjatiq-logo-on-light.svg" alt="JJATiQ">
+    </picture>
+    <p>Slowpoke Derby · <a href="./">Privacy Policy</a></p>
+    <p>Made by JJATiQ · © 2026 JJATiQ LLC. All rights reserved.</p>
+    <p>JJATiQ and the JJATiQ logo are trademarks of JJATiQ LLC.</p>
+  </footer>
+</main>
+</body>
+</html>
